@@ -1,0 +1,618 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+  }
+
+ .TT {
+  color: white;
+  background-color: #1eb2a6;
+  cursor: pointer;
+  padding: 17px 30px;
+  font-weight: 600;
+  margin: 30px 10px 0 0;
+  border-radius: 3px;
+  box-shadow: 0 24px 36px -11px rgba(0, 0, 0, 9%);
+  transition: box-shadow 0.3s ease;
+ }
+ .TT:hover {
+  color: black;
+  background-color: white;
+  
+ }
+.TY{
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  padding: 17px 30px;
+  font-weight: 600;
+  margin: 30px 10px 0 0;
+  border-radius: 3px;
+}
+.TY:hover{
+  color: white;
+  background-color: #1eb2a6;
+}
+
+.hero{
+    background-image: url("../../../../src/component/Home/Hero/herop1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    padding-top: 20%;
+    padding-right: 20px;
+    color: #fff; 
+    background-position: center;
+}
+.hero #heading h2{
+    color: #fff;
+}
+.row{
+  color: #1eb2a6;
+  
+}
+.hero #heading{
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*--hero section*/
+
+.sec1 {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20%;
+  margin-top: 8%;
+  margin-left: 3%;
+  margin-right: 2%;
+}
+
+.heading {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.course-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.courses {
+  width: 100%;
+  height: 50%;
+  
+  
+ 
+}
+
+.pic {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 3px solid rgba(95, 95, 95, 0.1);
+}
+
+
+
+
+  /*--why section*/
+ .s {
+  margin-top: 48%;
+}
+
+.cts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+.ct {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.iii {
+  text-align: right;
+  margin-right: 5%;
+}
+
+.i {
+  width: 90%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.m {
+  
+  z-index: 222;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  padding: 10px;
+  border: 1px solid rgba(95, 95, 95, 0.1);
+  border-radius: 10px;
+  margin-left: 7%;
+  margin-top: -3%;
+  width: 90%;
+  
+  
+}
+
+.image {
+  flex: 1;
+  text-align: center;
+
+}
+
+
+
+.h {
+  color: #000;
+}
+
+.pt {
+  text-align: start;
+}
+
+.st {
+  text-align: center;
+  font-size: 2.9rem;
+}
+
+
+
+.SSS{
+  margin-top: -5%;
+}
+
+.NN{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+.NNN{
+  color: #1eb2a6;
+  font-size: 30px;
+  width: 85%;
+  margin-top: 1%;
+  padding: 10%;
+  
+ 
+ 
+}
+.com{
+  margin-top: -20%;
+  font-size: 150px;
+  width: 50%;
+  margin-bottom: -5%;
+}
+
+.AA{
+  display: flex;
+  margin-left: 45%;
+  cursor: pointer;
+  margin-bottom: 10%;
+  margin-top: -10%;
+  
+}
+.NNNN{
+  color: #000;
+  margin-top: 5%;
+}
+
+
+
+/*----Promosec----*/
+#registration{
+  padding: 6vw 8vw 6vw 8vw;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1eb2a6;
+  margin-bottom: 7%;
+  margin-top: -7%;
+  
+}
+
+#registration .reminder{
+  color: #fff;
+}
+#registration h1{
+  color: #fff;
+}
+
+#registration .reminder .time{
+  display: flex;
+  margin-top: 40px;
+}
+
+#registration .reminder .time .date{
+  text-align: center;
+  padding: 13px 33px;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(4px);
+  box-shadow: 0 8px 32px 0 rgba(31, 30, 133, 0.36);
+  border-radius: 10px;
+  margin: 0 5px 10px 5px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+#registration .form{
+  background: #fff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  box-shadow: 0 8px 32px 0 rgba(31, 30, 133, 0.36);
+  width: 28%;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+#registration .form input{
+  margin: 15px 0;
+  padding: 15px 10px;
+  border: 1px solid rgb(84, 70, 230);
+  outline: none;
+}
+
+#registration .form .btn{
+  margin-top: 20px;
+  
+}
+
+#registration .form input::placeholder{
+  color: #413c3c;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+#registration .form .aqua{
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 13px 35px;
+  background-color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
+  color: #fff;
+  background: #1eb2a6;
+  transition: 0.3s ease;
+  width: 50%;
+  margin-left: 25%;
+}
+#registration .form .aqua:hover{
+  color: rgb(19, 19, 100);
+  background: rgb(0, 255, 234);
+  
+}
+
+
+/*---WHYYYYYYYYYTHEFUCKKK*/
+
+.why {
+  text-align: center;
+  padding: 20px;
+  margin-top: 49%;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-bottom: -5%;
+}
+
+.whyB {
+  font-size: 2.5rem;
+}
+
+.whyA {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.whyC {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+
+.whyD {
+  
+  text-align: left;
+  padding: 0 20px;
+  border: 2px solid rgba(95, 95, 95, 0.1);
+  width: 45%;
+  
+  
+}
+
+.whyE {
+  color: #000;
+}
+
+.whyF {
+  text-align: left;
+}
+
+.whyG {
+  flex: 1;
+  text-align: right;
+  
+  
+}
+
+.whyI {
+  width: 80%;
+  height: 50%;
+  border-radius: 8px;
+  border: 2px solid rgba(95, 95, 95, 0.1);
+}
+
+
+@media screen and (max-width: 375px){
+  .margin{
+      height: 40vh;
+      width: 1vh;
+  }
+  .hero{
+      background-position: right;
+      padding-top: 50%;
+      height: 80vh;
+      width: 20vh;
+  }
+
+}
+
+@media screen and (max-width: 375px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+  .row {
+    gap: 5px;
+    text-align: center;
+    width: 10vh;
+    
+}
+.row, h2 p {
+ margin-left: 55%;
+  width: 49%;
+}
+  .hero {
+    background-image: url("../../../../src/component/Home/Hero/herop1.jpg");
+    background-attachment: scroll;
+    max-width: 370px;
+    width: 100%;
+    height: 70vh;
+    padding-top: 20%;
+    padding-right: 20px;
+    color: #fff;
+    background-position: end;
+  }
+
+  .h2, h2 {
+    font-size: 0.9rem;
+    margin-top: 15%;
+    width: 100%;
+  }
+
+  p {
+    font-size: 15px;
+    
+  }
+  .TT {
+    width: 100%;
+    height: 50%;
+    font-weight: 200px;
+    font-size: 10px;
+    padding: 2px;
+    margin-top: 50%;
+}
+.TY {
+    width: 100%;
+    height: 80%;
+    font-weight: 200px;
+    font-size: 10px;
+    padding: 2px;
+    margin-top: 20%;
+}
+
+
+
+.why {
+  max-width: 340px;
+  width: 100%;
+  height: 50vh;
+}
+
+.whyI {
+  width: 40vh;
+  height: 40vh;
+  
+}
+
+.whyA {
+  
+  margin-top: -40%;
+  padding: 1px;
+  text-align: center;
+  margin-left: -6%;
+}
+
+.whyB {
+  font-size: 1.5rem;
+}
+
+.whyD {
+  width: 80%;
+  height: 30vh; 
+  text-align: center;
+  margin-left: 8%;
+  margin-right: 2%;
+}
+
+.whyE {
+  font-size: 1.0rem;
+}
+
+.whyC {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  flex-direction: column;
+  
+}
+
+
+/*-----Promosec-----*/
+#registration {
+  margin-top: 50%;
+  max-width: 370px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+p {
+  font-size: 15px;
+  
+}
+#registration {
+  margin-top: 5%;
+  width: 55.9vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#registration .reminder .time {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 40px;
+  
+  
+  
+}
+#registration .reminder .time .date {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+#registration .form {
+  
+  width: 100%;
+}
+#registration .form .aqua {
+  justify-content: center;
+  text-align: center;
+  width: 90%;
+  margin-left: 5%
+}
+
+/*---heroSec---*/
+
+.sec1 {
+  width: 100%;
+  margin-top: 40%;
+  max-width: 340px;
+}
+.heading{
+  font-size: 1.5rem;
+}
+.pic {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+ 
+}
+
+
+
+/*----Next-----*/
+
+.ct {
+  width: 95%;
+  margin-top: 10%;
+}
+
+.cts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  flex-direction: column;
+  
+}
+.st {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.com {
+  margin-top: -10%;
+  font-size: 110px;
+  width: 50%;
+  margin-bottom: -30%;
+}
+.NNN {
+  color: #1eb2a6;
+  font-size: 30px;
+  width: 85%;
+  margin-top: -1%;
+  padding: 5%;
+}
+.NNNN {
+  color: #000;
+  margin-top: 5%;
+  margin-bottom: 8%;
+}
+
+
+.course-box {
+  display: grid;
+  flex-direction: column;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30%;
+}
+
+
+
+
+}
