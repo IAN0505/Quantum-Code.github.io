@@ -45,14 +45,14 @@ export default function PermanentDrawerLeft() {
         <Divider />
         <List>
           <h1>Getting Started</h1>
-          {['Sign up', 'Join Class', 'Answer Activities', 'Answer Assingment', ' View All Subject', 'Take Quiz Online', 'Submit Project'].map((text) => (
+          {['Sign up', 'Join Class', 'Answer Activities', 'Answer Assignment', ' View All Subject', 'Take Quiz Online', 'Submit Project'].map((text) => (
             <ListItem key={text} disablePadding onClick={() => handleItemClick(text)}>
               <ListItemButton>
                 <ListItemIcon>
                   {text === 'Sign up' ? <Filter1RoundedIcon />
                   : text === 'Join Class' ? <Filter2RoundedIcon /> 
                   : text === 'Answer Activities' ? <Filter3RoundedIcon /> 
-                  : text === 'Answer Assingment' ? <Filter4RoundedIcon /> 
+                  : text === 'Answer Assignment' ? <Filter4RoundedIcon /> 
                   : text === 'View All Subject' ? <Filter5RoundedIcon /> 
                   : text === 'Take Quiz Online' ? <Filter6RoundedIcon /> 
                   : text === 'Submit Project' ? <Filter7RoundedIcon />
@@ -158,7 +158,7 @@ export default function PermanentDrawerLeft() {
 
             <div className='hideT'>
             <div className='SUP1'>
-            <h1>Answer Assingment</h1>
+            <h1>Answer Assignment</h1>
 
             <div>
               <div className='SUP2'>
@@ -172,7 +172,7 @@ export default function PermanentDrawerLeft() {
 
                       <div className='SUP3'>
                       <h4 className='SUP5'>Steps</h4>
-                      <p>1. To Answer Assingment follow step:</p>
+                      <p>1. To Answer Assignment follow step:</p>
                       
                       <img className="SUP1P" src={process.env.PUBLIC_URL + "/image/Sign5.png"} alt="" />
                       </div>
@@ -330,7 +330,7 @@ export default function PermanentDrawerLeft() {
           <div>
             <Typography paragraph>
             <div className='SUP1'>
-            <h1>Answer Assingment</h1>
+            <h1>Answer Assignment</h1>
 
             <div>
               <div className='SUP2'>
@@ -344,7 +344,7 @@ export default function PermanentDrawerLeft() {
 
                       <div className='SUP3'>
                       <h4 className='SUP5'>Steps</h4>
-                      <p>1. To Answer Assingment follow step:</p>
+                      <p>1. To Answer Assignment follow step:</p>
                       
                       <img className="SUP1P" src={process.env.PUBLIC_URL + "/image/Sign5.png"} alt="" />
                       </div>
