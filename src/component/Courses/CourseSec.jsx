@@ -58,7 +58,7 @@ const CourseSec = () => {
         <div className="CRC">
             <img className="cip" src={process.env.PUBLIC_URL + "/image/C6.png"} alt="" />
             <div className="details">
-                <h1 className="CTT">Phyton</h1>
+                <h1 className="CTT">Python</h1>
                 <h6 className="CTT">3-4 Weeks Course</h6>
                 <div className="CCR">$90.00</div>
             </div>
