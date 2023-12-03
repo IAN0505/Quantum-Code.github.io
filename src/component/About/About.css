@@ -263,12 +263,7 @@ section{
   margin-top: 20px;
 }
 
-.sec-01{
-  margin-top: 1%;
-  text-align: center;
-  max-width: 350px;
-  width: 100%;
-}
+
 
 @media screen and (max-width: 375px) {
   .A123 {
