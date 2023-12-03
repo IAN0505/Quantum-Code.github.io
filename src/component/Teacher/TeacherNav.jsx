@@ -46,12 +46,12 @@ export default function PermanentDrawerLeft() {
         <Divider />
         <List>
           <h1>Getting Started</h1>
-          {['Sign up', 'Create class', 'Create   Assingment',  'Create Activity', 'Compare Answer',  'Create  Project', 'Add Student'].map((text) => (
+          {['Sign up', 'Create class', 'Create   Assignment',  'Create Activity', 'Compare Answer',  'Create  Project', 'Add Student'].map((text) => (
             <ListItem key={text} disablePadding onClick={() => handleItemClick(text)}>
               <ListItemButton>
                 <ListItemIcon>
                   {text === 'Sign up' ? <Filter1RoundedIcon />
-                  : text === 'Create   Assingment' ? <Filter3RoundedIcon /> 
+                  : text === 'Create   Assignment' ? <Filter3RoundedIcon /> 
                   : text === 'Create class' ? <Filter2RoundedIcon />
                   
                   : text === 'Add Student' ? <Filter7RoundedIcon /> 
@@ -136,7 +136,7 @@ export default function PermanentDrawerLeft() {
 
             <div className='hideT'>
             <div className='SUP1'>
-            <h1>Create  Assingment</h1>
+            <h1>Create  Assignment</h1>
 
             <div>
               <div className='SUP2'>
@@ -150,7 +150,7 @@ export default function PermanentDrawerLeft() {
 
                       <div className='SUP3'>
                       <h4 className='SUP5'>Steps</h4>
-                      <p>1. To Create a  Assingment follow step:</p>
+                      <p>1. To Create a  Assignment follow step:</p>
                       
                       <img className="SUP1P" src={process.env.PUBLIC_URL + "/image/T5.png"} alt="" />
                       </div>
@@ -305,11 +305,11 @@ export default function PermanentDrawerLeft() {
             </Typography>
           </div>
         )}
-         {selectedItem === 'Create   Assingment' && (
+         {selectedItem === 'Create   Assignment' && (
           <div>
             <Typography paragraph>
             <div className='SUP1'>
-            <h1>Create  Assingment</h1>
+            <h1>Create  Assignment</h1>
 
             <div>
               <div className='SUP2'>
@@ -323,7 +323,7 @@ export default function PermanentDrawerLeft() {
 
                       <div className='SUP3'>
                       <h4 className='SUP5'>Steps</h4>
-                      <p>1. To Create a  Assingment follow step:</p>
+                      <p>1. To Create a  Assignment follow step:</p>
                       
                       <img className="SUP1P" src={process.env.PUBLIC_URL + "/image/T5.png"} alt="" />
                       </div>
